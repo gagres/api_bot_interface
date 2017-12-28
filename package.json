@@ -1,0 +1,21 @@
+{
+  "name": "rivescript_js_bot",
+  "version": "1.0.0",
+  "description": "A rivescript bot with node.js express api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BOT",
+    "NODE",
+    "RIVERSCRIPT"
+  ],
+  "author": "gabriel.giro.resende@outlook.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "rivescript": "^1.18.0"
+  }
+}
