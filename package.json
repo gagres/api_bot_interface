@@ -1,21 +1,29 @@
 {
-  "name": "rivescript_js_bot",
+  "name": "api_bot_interface",
   "version": "1.0.0",
-  "description": "A rivescript bot with node.js express api",
+  "description": "Nerd bot to nerfherder bot",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gagres/api_bot_interface.git"
+  },
   "keywords": [
     "BOT",
     "NODE",
-    "RIVERSCRIPT"
+    "SLACK"
   ],
-  "author": "gabriel.giro.resende@outlook.com",
+  "author": "Gabriel Giro <gabriel.giro.resende@outlook.com>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gagres/api_bot_interface/issues"
+  },
+  "homepage": "https://github.com/gagres/api_bot_interface#readme",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "rivescript": "^1.18.0"
+    "dotenv": "^4.0.0",
+    "rivescript": "^1.18.0",
+    "slackbots": "^1.1.0"
   }
 }
