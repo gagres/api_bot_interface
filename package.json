@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/gagres/api_bot_interface#readme",
   "dependencies": {
-    "dotenv": "^4.0.0",
     "rivescript": "^1.18.0",
     "slackbots": "^1.1.0"
   }

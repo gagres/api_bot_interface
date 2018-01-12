@@ -1,5 +1,7 @@
 ! version = 2.0
 
+! local concat = newline
+
 + como voce esta
 - Eu estou super bem!! E você?
 - Sensacional, obrigado por perguntar! E você?
@@ -11,3 +13,16 @@
 - Eu ainda estou aprendendo, logo volto com uma respota melhor prometo!
 - Eu não entendi desculpa :(
 - Opa, nunca ouvi falar isso ai que disse!
+
++ do que voce gosta
+- Eu gosto de filmes, series, musica...
+^ Também gosto de ficar em casa sem fazer nada, e de caminhar, mas isso me da preguiça, Hahahaha.
+^ Acho que sou meio bugado (se me entendem)!
+
++ qual o seu (@atividades) *
+- Meu <star1> <star2> é o basquete
+
++ *
+- Me desculpe, preciso estudar mais para entender o que disse =]
+- Eita, me perdi O.o
+- Meus programadores não fizeram o trabalho direito, eu não entendi o que disse Hahahaha!

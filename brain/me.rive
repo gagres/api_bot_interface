@@ -1,0 +1,6 @@
++ meu nome e _
+- <set nome=<formal>>Prazer em conhece-lo <get nome>
+
++ qual e o meu nome
+* <get nome> == undefined => Você ainda não se apresentou, quer começar?
+- Seu nome é: <get nome>

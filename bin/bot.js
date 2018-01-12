@@ -1,14 +1,15 @@
 const SlackBot = require('../lib/slackbot');
-const dotenv = require('dotenv');
+const TerminalBot = require('../lib/terminalbot');
 
-// Init dotenv file
-dotenv.config();
+// const settings = {
+//   token: process.env.API_TOKEN,
+//   name: process.env.API_NAME || 'nerdbot'
+// };
+//
+// const bot = new SlackBot(settings);
 
-const settings = {
-  token: process.env.API_TOKEN,
-  name: process.env.API_NAME || 'nerdbot'
-};
+// bot.run();
 
-const bot = new SlackBot(settings);
+const terminal = new TerminalBot();
 
-bot.run();
+terminal.run();
